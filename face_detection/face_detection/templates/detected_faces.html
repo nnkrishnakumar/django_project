@@ -1,0 +1,13 @@
+<!-- templates/detected_faces.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detected Faces</title>
+</head>
+<body>
+    <h2>Detected Faces</h2>
+    {% for face in detected_faces %}
+        <img src="data:image/png;base64,{{ face.image|b64encode }}" alt="Detected Face">
+    {% endfor %}
+</body>
+</html>
