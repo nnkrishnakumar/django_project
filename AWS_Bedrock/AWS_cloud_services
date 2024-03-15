@@ -1,0 +1,19 @@
+Titan Embeddings G1 - Text
+
+Titan Text G1 - Lite
+
+Titan Text G1 - Express
+
+Titan Image Generator G1
+
+Titan Multimodal Embeddings G1
+
+Introduction of Embeddings G1 -Text
+
+
+EOD:
+
+1> Train Vanilla GAN Model
+2> tune hyper parameter like scaling, create generator and discriminator,
+3> generate multiple image of low quality
+4> gethering information on aws bedrock service
