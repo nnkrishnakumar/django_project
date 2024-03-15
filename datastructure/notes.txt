@@ -1,0 +1,7 @@
+Data structure: 
+-----------------
+
+Built_in: List , tuple, set, dictionary
+
+User_defined: Stack,Queue, Linked List, Tree, Graph
+

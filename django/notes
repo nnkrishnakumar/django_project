@@ -1,0 +1,58 @@
+Django has three partition 
+
+: Model: Responsible for maintaining your data
+
+: view: what you see in the website when you render a website
+
+: template: contain the static part of desired HTML output
+
+* creating virtual environment using // pip install virtualenv  // 
+virtualenv advantages: 
+
+Creating a virtual environment (virtualenv) for a project in Python is a common practice for several reasons:
+
+Isolation of Dependencies:
+Avoiding Dependency Conflicts: Different projects may require different versions of libraries or dependencies. Virtual environments isolate these dependencies, preventing conflicts between different project requirements.
+Project-Specific Environment:
+Project Scope: Each virtual environment is specific to a particular project, containing only the necessary packages and dependencies required for that project's execution. It keeps the project self-contained.
+Version Management:
+Python Version Compatibility: It allows you to work with different versions of Python for different projects without affecting the system-wide Python installation.
+Benefits:
+Consistent Development Environment: Ensures consistency across team members by using the same environment settings, preventing unexpected issues due to different system configurations.
+
+Testing and Deployment: Facilitates testing and deployment by allowing you to reproduce the exact environment on different machines or servers.
+
+How to Create a Virtual Environment:
+In Python, you can create a virtual environment using virtualenv or venv (built-in in Python 3).
+
+Using venv:
+
+bash
+Copy code
+python3 -m venv /path/to/new/virtualenv
+Using virtualenv:
+
+bash
+Copy code
+virtualenv /path/to/new/virtualenv
+Activating a Virtual Environment:
+On Windows:
+
+bash
+Copy code
+/path/to/new/virtualenv/Scripts/activate
+On Unix or MacOS:
+
+bash
+Copy code
+source /path/to/new/virtualenv/bin/activate
+Once activated, your terminal session will use the Python interpreter and packages installed within the virtual environment.
+
+By creating a virtual environment for each project, you ensure a clean and consistent environment, avoid conflicts between dependencies, and maintain better control over the project's development and deployment processes.
+
+# how to install virtual environment 
+
+    > pip install virtualenv
+
+    > virtualenv evn_name
+    
